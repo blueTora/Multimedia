@@ -12,7 +12,7 @@ This project utilizes multimedia science and the power of histogram equalization
 
 4. **Calculate the Cumulative Sum**: Using the histogram, we calculate the cumulative sum of pixel intensities. This step allows us to determine the desired mapping function for contrast enhancement.
 
-5. **Create a Map**: Based on the cumulative sum, we create a mapping function that maps the original pixel intensities to their enhanced counterparts. This mapping ensures a more even distribution of colors throughout the image. In order to better distribute colors with different number of occurrences, it is necessary to map each color to its rounded sum normalized value.
+5. **Create a Map**: Based on the cumulative sum, we create a mapping function that maps the original pixel intensities to their enhanced counterparts. This mapping ensures a more even distribution of colors throughout the image. To achieve better color distribution, it is necessary to map each color to its rounded, normalized sum value.
 
 6. **Apply the Mapping and Save the Final Image**: Finally, we apply the mapping function to each pixel in the image, effectively increasing the contrast. The resulting image is then saved, showcasing the enhanced visual appeal.
 ## Example
